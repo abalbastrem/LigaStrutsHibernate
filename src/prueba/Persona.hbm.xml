@@ -1,0 +1,14 @@
+<hibernate-mapping>
+	<class name="prueba.Persona" table="Personas">
+		<id name="id" column="ID">
+			<generator class="foreign">
+				<param name="property">direccion</param>
+			</generator>
+			
+		</id>
+		<property name="nombre"/>
+		
+		<one-to-one name="direccion" cascade="persist, delete"/>
+			
+	</class>
+</hibernate-mapping>

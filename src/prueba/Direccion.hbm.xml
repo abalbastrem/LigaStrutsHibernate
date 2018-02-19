@@ -1,0 +1,9 @@
+<hibernate-mapping>
+	<class name="prueba.Direccion" table="DIRECCIONES">
+		<id name="id" column="ID">
+			<generator class="identity"/>
+		</id>
+		<property name="calle"/>
+		<property name="cp"/>	
+	</class>
+</hibernate-mapping>
