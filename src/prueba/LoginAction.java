@@ -1,10 +1,10 @@
 package prueba;
 
 public class LoginAction {
-	
+
 	private String username;
 	private String password;
-	
+
 	public String execute() {
 		if (this.username.equals("admin") && this.password.equals("admin123")) {
 			return "success";
