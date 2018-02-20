@@ -35,8 +35,10 @@
 <!--         <mapping resource="prueba/Persona.hbm.xml" /> -->
 
 <!-- CLASES ANOTADAS -->
-			<mapping class="prueba.Persona"/>
-			<mapping class="prueba.Direccion"/>
+			<mapping class="prueba.LoginAction"/>
+			<mapping class="prueba.Equipo"/>
+			<mapping class="prueba.Jugador"/>
+			<mapping class="prueba.Liga"/>
     </session-factory>
 
 </hibernate-configuration>
